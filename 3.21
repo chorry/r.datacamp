@@ -1,0 +1,3 @@
+remaining <- star_wars_matrix - star_wars_matrix * commission_rates
+remaining_tot <- rowSums( remaining )
+profit <- remaining_tot - budget
