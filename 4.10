@@ -1,0 +1,1 @@
+fly_class_factor <- factor( fly_class, levels = c("eco","bus","fir"), labels=c("economy","business","first"), ordered = TRUE )
