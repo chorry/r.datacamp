@@ -1,0 +1,12 @@
+rNames <- c("row1","row2","row3","row4")
+cNames <- c("c1","c2","c3","c4","c5","c6","total")
+scores <-  matrix( 
+	rbind(
+		c(first_row, sum(first_row) ),
+		c(second_row, sum(second_row) ),
+		c(third_row, sum(third_row) ),
+		c(fourth_row, sum(fourth_row) )
+	),
+	nrow=4, ncol=7, 
+	dimnames = list(rNames, cNames) 
+)
