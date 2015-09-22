@@ -1,0 +1,7 @@
+# star_wars_matrix is already defined in your workspace
+
+# US box office revenue for "The Empire Strikes Back"
+ star_wars_matrix[2,1]
+
+# non-US box office revenue for "A New Hope"
+ star_wars_matrix[1,2]

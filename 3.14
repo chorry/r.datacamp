@@ -1,0 +1,4 @@
+# star_wars_matrix is already defined in your workspace
+
+# All figures for "A New Hope" and "Return of the Jedi"
+star_wars_matrix[ c(1,3), ]

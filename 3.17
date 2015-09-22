@@ -1,0 +1,1 @@
+total_views_loud <- colSums( cbind( view_count_2, view_count_1) )[ c("Rachel", "Walter","Dave") ]
