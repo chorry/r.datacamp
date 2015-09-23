@@ -1,0 +1,8 @@
+# planets_df pre-loaded in your workspace
+
+# Create rings_vector
+rings_vector <- planets_df$has_rings
+
+# Select the information on planets with rings: planets_with_rings_df
+planets_with_rings_df <- planets_df[rings_vector,]
+planets_with_rings_df

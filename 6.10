@@ -1,0 +1,10 @@
+# planets_df is pre-loaded
+
+# Diameter and rotation for Earth: earth_data 
+earth_data <- list( planets_df[3,"diameter"], planets_df[3,"rotation"])
+
+# Diameter for the last six rows: furthest_planets_diameter
+furthest_planets_diameter <- planets_df[3:8,"diameter"]
+
+# Print furthest_planets_diameter
+furthest_planets_diameter

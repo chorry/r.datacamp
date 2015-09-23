@@ -1,0 +1,10 @@
+# planets_df is pre-loaded in your workspace
+
+# Create a desired ordering for planets_df: positions
+positions <- order(planets_df$diameter, decreasing = TRUE)
+
+# Create a new, ordered data frame: largest_first_df
+largest_first_df <- planets_df[positions, ]
+
+# Print largest_first_df
+largest_first_df

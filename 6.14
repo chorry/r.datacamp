@@ -1,0 +1,12 @@
+# planets_df is already pre-loaded in your workspace
+
+# Definition of moons and masses
+moons <- c(0, 0, 1, 2, 67, 62, 27, 14)
+masses <- c(0.06, 0.82, 1.00, 0.11, 317.8, 95.2, 14.6, 17.2)
+
+# Add moons to planets_df under the name "moon"
+planets_df <- cbind(planets_df, moon = moons)
+
+# Add masses to planets_df under the name "mass"
+planets_df$mass <- masses
+

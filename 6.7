@@ -1,0 +1,3 @@
+countries_df <- data.frame(countries, factor(continents), gdp, hdi, president, stringsAsFactors = FALSE)
+names(countries_df) <- c("name","cont","GDP","HDI","has_president")
+str(countries_df)

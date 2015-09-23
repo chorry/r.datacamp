@@ -1,0 +1,9 @@
+# planets_df is pre-loaded (without the columns moon and mass)
+
+# Name pluto correctly
+pluto <- data.frame(name = "Pluto", type = "Terrestrial planet", diameter = 0.18, rotation = -6.38, has_rings = FALSE)
+
+# Bind planets_df and pluto together: planets_df_ext
+planets_df_ext <- cbind(planets_df,pluto)
+# Print out planets_df_ext
+planets_df_ext

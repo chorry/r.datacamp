@@ -1,0 +1,8 @@
+# planets_df is pre-loaded in your workspace
+
+# Create rings_vector
+rings_vector <- planets_df$has_rings
+
+# Print rings_vector
+rings_vector
+
